@@ -110,6 +110,6 @@ public class ExampleLibrary implements IMCEngineArtificialIntelligenceAddOn {
 
     @Override
     public void setId(String id) {
-        MCEngineCoreApi.setId("artificialintelligence-library-example");
+        MCEngineCoreApi.setId("mcengine-artificialintelligence-library-example");
     }
 }
