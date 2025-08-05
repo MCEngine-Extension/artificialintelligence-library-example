@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.example.library;
+package io.github.mcengine.extension.library.example;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
