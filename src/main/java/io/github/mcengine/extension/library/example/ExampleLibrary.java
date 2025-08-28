@@ -96,11 +96,6 @@ public class ExampleLibrary implements IMCEngineArtificialIntelligenceAddOn {
             logger.warning("Failed to initialize ExampleLibrary: " + e.getMessage());
             e.printStackTrace();
         }
-
-        // Check for updates
-        MCEngineCoreApi.checkUpdate(plugin, logger.getLogger(),
-            "github", "MCEngine-Extension", "artificialintelligence-library-example",
-            plugin.getConfig().getString("github.token", "null"));
     }
 
     @Override
