@@ -38,7 +38,7 @@ public class ExampleLibrary implements IMCEngineArtificialIntelligenceAddOn {
         try {
             // Register event listener
             PluginManager pluginManager = Bukkit.getPluginManager();
-            pluginManager.registerEvents(new LibraryListener(plugin), plugin);
+            pluginManager.registerEvents(new LibraryListener(plugin, logger), plugin);
 
             // Reflectively access Bukkit's CommandMap
             Field commandMapField = Bukkit.getServer().getClass().getDeclaredField("commandMap");
