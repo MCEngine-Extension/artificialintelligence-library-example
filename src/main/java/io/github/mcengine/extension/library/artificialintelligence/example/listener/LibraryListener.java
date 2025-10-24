@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.library.example;
+package io.github.mcengine.extension.library.artificialintelligence.example.listener;
 
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
 import org.bukkit.ChatColor;

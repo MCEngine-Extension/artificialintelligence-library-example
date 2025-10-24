@@ -1,12 +1,12 @@
-package io.github.mcengine.extension.library.example;
+package io.github.mcengine.extension.library.artificialintelligence.example;
 
 import io.github.mcengine.api.core.MCEngineCoreApi;
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
 import io.github.mcengine.api.artificialintelligence.extension.addon.IMCEngineArtificialIntelligenceAddOn;
 
-import io.github.mcengine.extension.library.example.LibraryCommand;
-import io.github.mcengine.extension.library.example.LibraryListener;
-import io.github.mcengine.extension.library.example.LibraryTabCompleter;
+import io.github.mcengine.extension.library.artificialintelligence.example.LibraryCommand.command;
+import io.github.mcengine.extension.library.artificialintelligence.example.LibraryListener.listener;
+import io.github.mcengine.extension.library.artificialintelligence.example.LibraryTabCompleter.tabcompleter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
