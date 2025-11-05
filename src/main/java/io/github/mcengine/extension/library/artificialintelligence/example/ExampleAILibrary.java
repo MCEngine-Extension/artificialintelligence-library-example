@@ -23,7 +23,7 @@ import java.util.List;
  * <p>
  * Registers the /ailibraryexample command and event listeners.
  */
-public class ExampleLibrary implements IMCEngineArtificialIntelligenceAddOn {
+public class ExampleAILibrary implements IMCEngineArtificialIntelligenceAddOn {
 
     /**
      * Initializes the ExampleLibrary.
@@ -108,3 +108,4 @@ public class ExampleLibrary implements IMCEngineArtificialIntelligenceAddOn {
         MCEngineCoreApi.setId("mcengine-artificialintelligence-library-example");
     }
 }
+
